@@ -1,10 +1,21 @@
 # Country Flag Picker: a Claude Code skill
 
+[![Try the live demo](https://img.shields.io/badge/Try_the_live_demo-country--flag.jayshapiro.com-2563eb?style=for-the-badge)](https://country-flag.jayshapiro.com)
+
 A ready-made pattern for a smarter country field in web forms. Ask Claude Code for a country selector
 or a phone-number-with-country-code field, and it builds this one: every country, a real flag,
 the right dial code, and the visitor's country sniffed from their current IP address and already selected in the form.
 
-**Live demo:** [country-flag.jayshapiro.com](https://country-flag.jayshapiro.com)
+## Try it live
+
+**[country-flag.jayshapiro.com](https://country-flag.jayshapiro.com)** is a working sign-up form built with this skill. Try this:
+
+1. Watch your country, state/province and city fill themselves in from your location.
+2. Open the phone code dropdown and type a country name, e.g. "ke" for Kenya (+254).
+3. Change **Current location** to Kenya, choose a county such as Nairobi County, and see the city
+   list narrow to that county. Type a town that isn't listed; it's kept.
+4. Press **Submit** to see exactly what your database would store: ISO codes and an international
+   phone number.
 
 ## What you get
 
