@@ -1,0 +1,13 @@
+{
+  "name": "country-flag-picker",
+  "version": "1.0.0",
+  "description": "Country field for web forms: full ISO 3166-1 list with SVG flags and dial codes, ISO code as the stored value, IP-based preselection, optional state/province list.",
+  "author": {
+    "name": "Jay Shapiro",
+    "url": "https://github.com/jayshapiro"
+  },
+  "homepage": "https://github.com/jayshapiro/country-flag-picker",
+  "repository": "https://github.com/jayshapiro/country-flag-picker",
+  "license": "MIT",
+  "keywords": ["country", "iso-3166", "flags", "phone", "dial-code", "forms", "react", "shadcn"]
+}

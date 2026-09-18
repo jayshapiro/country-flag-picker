@@ -1,0 +1,18 @@
+{
+  "name": "jayshapiro",
+  "owner": {
+    "name": "Jay Shapiro",
+    "url": "https://github.com/jayshapiro"
+  },
+  "metadata": {
+    "description": "Claude Code skills by Jay Shapiro."
+  },
+  "plugins": [
+    {
+      "name": "country-flag-picker",
+      "source": "./",
+      "description": "Country field for web forms: full ISO 3166-1 list with SVG flags and dial codes, ISO code as the stored value, IP-based preselection, optional state/province list.",
+      "version": "1.0.0"
+    }
+  ]
+}
