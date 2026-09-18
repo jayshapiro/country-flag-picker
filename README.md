@@ -101,6 +101,26 @@ the UI parts.
 | Anywhere else | a tiny free Worker on `workers.dev` (included) | a free Cloudflare account |
 | No Cloudflare at all | a third-party IP lookup (fallback) | check its terms |
 
+## Choosing the location lookup
+
+**Cloudflare is the default.** It's free on every plan, needs no API key, and makes no call to
+another company. If your site is on Cloudflare, or you're happy to create a free Cloudflare account
+for the small included Worker, you don't need to do anything. Claude will ask how your site is
+hosted and set it up.
+
+**To use a free IP lookup service instead,** tell Claude when you ask for the field, for example:
+
+- "We're not on Cloudflare. Use ip-api.com for the location lookup."
+- "Use ipinfo.io for the country prefill." (or any provider you prefer)
+
+The skill includes a ready-made ip-api.com endpoint that returns the country, region and city, so
+the form behaves the same as with Cloudflare. Before you use it, check the provider's terms:
+
+- ip-api.com's free tier needs no API key but works over **plain HTTP only** and is for
+  **non-commercial use only**. Commercial projects need its paid plan or another provider.
+- Keep the lookup on your server, not in the browser, and put a rate limit on it, because every
+  visitor uses up part of the provider's quota.
+
 ## Things to decide per project
 
 The skill asks rather than assumes on these:
